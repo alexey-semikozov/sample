@@ -8,6 +8,8 @@ before_install:
 dist: trusty
 sudo: required
 
+group: edge
+
 addons:
   firefox: latest
   apt:
