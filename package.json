@@ -1,0 +1,19 @@
+{
+  "name": "sample",
+  "version": "0.0.0",
+  "description": "sample",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey-semikozov/sample.git"
+  },
+  "author": "alexeysemikozov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexey-semikozov/sample/issues"
+  },
+  "homepage": "https://github.com/alexey-semikozov/sample#readme"
+}
