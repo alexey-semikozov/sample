@@ -4,7 +4,8 @@
   "description": "sample",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "testcafe chrome ./test.js --app \"npm start\"",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/alexey-semikozov/sample/issues"
   },
-  "homepage": "https://github.com/alexey-semikozov/sample#readme"
+  "homepage": "https://github.com/alexey-semikozov/sample#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "testcafe": "^0.16.0"
+  }
 }
