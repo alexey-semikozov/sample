@@ -25,7 +25,11 @@ before_script:
   - fluxbox >/dev/null 2>&1 &
 install:
   - npm install
+  - git clone https://github.com/alexey-semikozov/resolve
 script:
-  - npm run test:chrome
   - npm run test:firefox
-
+  - cd resolve
+  - npm install
+  - npm run bootstrap
+  - cd examples/todo
+  - npm run test:e2e
